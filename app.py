@@ -118,7 +118,7 @@ db = mongo.db
 chat_history_collection = db['chatbot_conversations']
 
 # Initialize Gemini Model for Chatbot
-# genai.configure(api_key="AIzaSyBzQlSdL16f4xy16BvqSnfe2OUINYINYVA")
+# genai.configure(api_key="")
 # chat_model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Load pre-trained ML model for plant identification (example using TensorFlow)
